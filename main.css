@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}   
+
+body {
+    background-color: #e4dede;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 60px;
+    color: #fff;
+}
+
+.form {
+    width: 350px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+#btn-enviar {
+    width: 350px;
+    justify-content: left;
+    background-color: #31bd31;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: #282828;
+}
+
+#btn-enviar:hover {
+    background-color: #269926;
+    padding: 11px;
+    width: 377px;
+    cursor: pointer;
+}
+
+#msg-usuario{
+    width: 377px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    backgroud-color: #269926;
+    display: none;
+}
+
+.error-msg {
+    width: 377px;
+    background-color: #d80d0d;
+    color: #fff;
+    padding: 7px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.erro {
+    outline-color:red;
+    color: red;
+}
